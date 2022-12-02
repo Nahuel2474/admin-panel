@@ -1,0 +1,254 @@
+ <!-- Main content -->
+ <div class="main-content" id="panel">
+    <!-- Topnav -->
+    <nav class="navbar navbar-top navbar-expand navbar-dark bg-primary border-bottom">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Search form -->
+          <form class="navbar-search navbar-search-light form-inline mr-sm-3" id="navbar-search-main">
+            <div class="form-group mb-0">
+              <div class="input-group input-group-alternative input-group-merge">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fas fa-search"></i></span>
+                </div>
+                <input class="form-control" placeholder="Search" type="text">
+              </div>
+            </div>
+            <button type="button" class="close" data-action="search-close" data-target="#navbar-search-main" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </form>
+          <!-- Navbar links -->
+          <ul class="navbar-nav align-items-center  ml-md-auto ">
+            <li class="nav-item d-xl-none">
+              <!-- Sidenav toggler -->
+              <div class="pr-3 sidenav-toggler sidenav-toggler-dark" data-action="sidenav-pin" data-target="#sidenav-main">
+                <div class="sidenav-toggler-inner">
+                  <i class="sidenav-toggler-line"></i>
+                  <i class="sidenav-toggler-line"></i>
+                  <i class="sidenav-toggler-line"></i>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item d-sm-none">
+              <a class="nav-link" href="#" data-action="search-show" data-target="#navbar-search-main">
+                <i class="ni ni-zoom-split-in"></i>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="ni ni-bell-55"></i>
+              </a>
+              <div class="dropdown-menu dropdown-menu-xl  dropdown-menu-right  py-0 overflow-hidden">
+                <!-- Dropdown header -->
+                <div class="px-3 py-3">
+                  <h6 class="text-sm text-muted m-0">You have <strong class="text-primary">13</strong> notifications.</h6>
+                </div>
+                <!-- List group -->
+                <div class="list-group list-group-flush">
+                  <a href="#!" class="list-group-item list-group-item-action">
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+                        <!-- Avatar -->
+                        <img alt="Image placeholder" src="/assets/img/theme/team-1.jpg" class="avatar rounded-circle">
+                      </div>
+                      <div class="col ml--2">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div>
+                            <h4 class="mb-0 text-sm">John Snow</h4>
+                          </div>
+                          <div class="text-right text-muted">
+                            <small>2 hrs ago</small>
+                          </div>
+                        </div>
+                        <p class="text-sm mb-0">Let's meet at Starbucks at 11:30. Wdyt?</p>
+                      </div>
+                    </div>
+                  </a>
+                  
+                </div>
+                <!-- View all -->
+                <a href="#!" class="dropdown-item text-center text-primary font-weight-bold py-3">View all</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="ni ni-ungroup"></i>
+              </a>
+              <div class="dropdown-menu dropdown-menu-lg dropdown-menu-dark bg-default  dropdown-menu-right ">
+                <div class="row shortcuts px-4">
+                  <a href="#!" class="col-4 shortcut-item">
+                    <span class="shortcut-media avatar rounded-circle bg-gradient-red">
+                      <i class="ni ni-calendar-grid-58"></i>
+                    </span>
+                    <small>Calendar</small>
+                  </a>
+                  <a href="#!" class="col-4 shortcut-item">
+                    <span class="shortcut-media avatar rounded-circle bg-gradient-orange">
+                      <i class="ni ni-email-83"></i>
+                    </span>
+                    <small>Email</small>
+                  </a>
+                  <a href="#!" class="col-4 shortcut-item">
+                    <span class="shortcut-media avatar rounded-circle bg-gradient-info">
+                      <i class="ni ni-credit-card"></i>
+                    </span>
+                    <small>Payments</small>
+                  </a>
+                  <a href="#!" class="col-4 shortcut-item">
+                    <span class="shortcut-media avatar rounded-circle bg-gradient-green">
+                      <i class="ni ni-books"></i>
+                    </span>
+                    <small>Reports</small>
+                  </a>
+                  <a href="#!" class="col-4 shortcut-item">
+                    <span class="shortcut-media avatar rounded-circle bg-gradient-purple">
+                      <i class="ni ni-pin-3"></i>
+                    </span>
+                    <small>Maps</small>
+                  </a>
+                  <a href="#!" class="col-4 shortcut-item">
+                    <span class="shortcut-media avatar rounded-circle bg-gradient-yellow">
+                      <i class="ni ni-basket"></i>
+                    </span>
+                    <small>Shop</small>
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+          
+         
+        </div>
+      </div>
+    </nav>
+    <!-- Header -->
+    <!-- Header -->
+    <div class="header bg-primary pb-6">
+      <div class="container-fluid">
+        <div class="header-body">
+          <div class="row align-items-center py-4">       
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page content -->
+    <div class="container-fluid mt--6">
+      <div class="row">
+        <div class="col">
+             <div class="card">
+                <br><br><br>
+              <form action="/game/publish" method="post">
+              <div class="row mb-5">
+                <div class="form-group text-center col-sm-6" >
+                  <h3 class="text-center">Imagen</h3>
+                  <label for="inputGroupFile03" class="mx-auto">
+                    <input class="form-control-file" name="image"  type="file" id="fileinput" accept="image/*" />
+                    <br>
+                    <div id="preview"></div>
+                  </label>
+                </div>
+                <div class="text-center col-sm-2" style="border-left: 2px solid black;">
+                  <h3 class="text-center">Titulo</h3>
+                  <input type="text" name="tittle">
+                  <h3 class="text-center">Alts</h3>
+                  <input type="text" name="link1">
+                  <h3 class="text-center">Torrent</h3>
+                  <input type="text" name="link2">
+                  <h3 class="text-center">Crack/Update</h3>
+                  <input type="text" name="link3">              
+                </div>
+                <div class="text-center col-sm-2">
+                  <h3 class="text-center">Gameplay</h3>
+                  <input type="text" name="gameplay">
+                  <h3 class="text-center">genero A</h3>
+                  <select name="genre1" id="">
+                    <option value=""></option>
+                    <option value="Accion">Accion</option>
+                    <option value="Mundo Abierto">Mundo Abierto</option>
+                    <option value="RPG">RPG</option>
+                    <option value="Estrategia">Estrategia</option>
+                    <option value="Survival">Survival</option>
+                    <option value="Carreras">Carreras</option>
+                    <option value="Rogue Like">Rogue-Like</option>
+                  </select>
+                  <h3 class="text-center">genero B</h3>
+                  <select name="genre2" id="">
+                    <option value=""></option>
+                    <option value="Luchas">Luchas</option>
+                    <option value="Aventura">Aventura</option>
+                    <option value="FPS">FPS</option>
+                    <option value="Multplayer">Multiplayer</option>
+                    <option value="Survival Horror">Survival Horror</option>
+                    <option value="Deporte">Deporte</option>
+                    <option value="Simulacion">Simulacion</option>
+
+                  </select>
+                  <h3 class="text-center">genero C</h3>
+                  <select name="genre3" id="">
+                    <option value="Requisitos Bajos">Requisitos Bajos</option>
+                    <option value="Requisitos Medios">Requisitos Medios</option>
+                    <option value="Requisitos Altos">Requisitos Altos</option>
+                  </select>
+                </div>            
+              </div>
+              <hr>
+              <!-- /////////////////////// DESCRIPCION && REQUISITOS && INSTRUCCIONES ////////////////////// -->
+              <div class="row" >              
+              <div class="form-group text-center col" >
+                <h3 class="text-center">Descripción</h3>
+                <label for="inputGroupFile03" >
+                  <textarea  name="desc" id="" cols="50" rows="5"></textarea>
+              </label>
+              </div>
+              <br>
+              <div class="form-group text-center col" >
+                <h3 class="text-center">Requisitos</h3>
+                <label for="inputGroupFile03" >
+                  <textarea name="requisitos" id="" cols="50" rows="5"></textarea>
+              </label>
+              </div>
+              <br>
+              <div class="form-group text-center col">
+                <h3 class="text-center">Instrucciones</h3>
+                <label for="inputGroupFile03" >
+                  <textarea name="inst" id="" cols="50" rows="5"></textarea>
+              </label>
+              </div>
+              <br>                         
+              </div>
+              <div class="col m-5">
+                <input class="btn btn-success text-center" type="submit"> 
+              </div>                                       
+              </form>
+            </div>
+          
+        </div>
+      </div>
+<style>
+  .newImgClass{
+     max-height: 200px; 
+     min-width: 500px;
+  }
+</style>
+<script>
+  document.getElementById("fileinput").onchange = function(e) {
+  // Creamos el objeto de la clase FileReader
+  let reader = new FileReader();
+
+  // Leemos el archivo subido y se lo pasamos a nuestro fileReader
+  reader.readAsDataURL(e.target.files[0]);
+
+  // Le decimos que cuando este listo ejecute el código interno
+  reader.onload = function(){
+    let preview = document.getElementById('preview'),
+        image = document.createElement('img');
+        image.className = 'newImgClass'
+    
+    image.src = reader.result;
+
+    preview.innerHTML = '';
+    preview.append(image);
+  };
+}
+</script>

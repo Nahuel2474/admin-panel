@@ -1,0 +1,686 @@
+<!-- Main content -->
+<div class="main-content" id="panel">
+  <!-- Topnav -->
+  <nav class="navbar navbar-top navbar-expand navbar-dark bg-primary border-bottom">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Search form -->
+        <form class="navbar-search navbar-search-light form-inline mr-sm-3" id="navbar-search-main">
+          <div class="form-group mb-0">
+            <div class="input-group input-group-alternative input-group-merge">
+              <div class="input-group-prepend">
+                <span class="input-group-text"><i class="fas fa-search"></i></span>
+              </div>
+              <input class="form-control" placeholder="Search" type="text">
+            </div>
+          </div>
+          <button type="button" class="close" data-action="search-close" data-target="#navbar-search-main"
+            aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </form>
+        <!-- Navbar links -->
+        <ul class="navbar-nav align-items-center  ml-md-auto ">
+          <li class="nav-item d-xl-none">
+            <!-- Sidenav toggler -->
+            <div class="pr-3 sidenav-toggler sidenav-toggler-dark" data-action="sidenav-pin"
+              data-target="#sidenav-main">
+              <div class="sidenav-toggler-inner">
+                <i class="sidenav-toggler-line"></i>
+                <i class="sidenav-toggler-line"></i>
+                <i class="sidenav-toggler-line"></i>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item d-sm-none">
+            <a class="nav-link" href="#" data-action="search-show" data-target="#navbar-search-main">
+              <i class="ni ni-zoom-split-in"></i>
+            </a>
+          </li>
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              <i class="ni ni-bell-55"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-xl  dropdown-menu-right  py-0 overflow-hidden">
+              <!-- Dropdown header -->
+              <div class="px-3 py-3">
+                <h6 class="text-sm text-muted m-0">You have <strong class="text-primary">13</strong> notifications.
+                </h6>
+              </div>
+              <!-- List group -->
+              <div class="list-group list-group-flush">
+                <a href="#!" class="list-group-item list-group-item-action">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <!-- Avatar -->
+                      <img alt="Image placeholder" src="../assets/img/theme/team-1.jpg" class="avatar rounded-circle">
+                    </div>
+                    <div class="col ml--2">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                          <h4 class="mb-0 text-sm">John Snow</h4>
+                        </div>
+                        <div class="text-right text-muted">
+                          <small>2 hrs ago</small>
+                        </div>
+                      </div>
+                      <p class="text-sm mb-0">Let's meet at Starbucks at 11:30. Wdyt?</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="#!" class="list-group-item list-group-item-action">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <!-- Avatar -->
+                      <img alt="Image placeholder" src="../assets/img/theme/team-2.jpg" class="avatar rounded-circle">
+                    </div>
+                    <div class="col ml--2">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                          <h4 class="mb-0 text-sm">John Snow</h4>
+                        </div>
+                        <div class="text-right text-muted">
+                          <small>3 hrs ago</small>
+                        </div>
+                      </div>
+                      <p class="text-sm mb-0">A new issue has been reported for Argon.</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="#!" class="list-group-item list-group-item-action">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <!-- Avatar -->
+                      <img alt="Image placeholder" src="../assets/img/theme/team-3.jpg" class="avatar rounded-circle">
+                    </div>
+                    <div class="col ml--2">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                          <h4 class="mb-0 text-sm">John Snow</h4>
+                        </div>
+                        <div class="text-right text-muted">
+                          <small>5 hrs ago</small>
+                        </div>
+                      </div>
+                      <p class="text-sm mb-0">Your posts have been liked a lot.</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="#!" class="list-group-item list-group-item-action">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <!-- Avatar -->
+                      <img alt="Image placeholder" src="../assets/img/theme/team-4.jpg" class="avatar rounded-circle">
+                    </div>
+                    <div class="col ml--2">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                          <h4 class="mb-0 text-sm">John Snow</h4>
+                        </div>
+                        <div class="text-right text-muted">
+                          <small>2 hrs ago</small>
+                        </div>
+                      </div>
+                      <p class="text-sm mb-0">Let's meet at Starbucks at 11:30. Wdyt?</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="#!" class="list-group-item list-group-item-action">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <!-- Avatar -->
+                      <img alt="Image placeholder" src="../assets/img/theme/team-5.jpg" class="avatar rounded-circle">
+                    </div>
+                    <div class="col ml--2">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                          <h4 class="mb-0 text-sm">John Snow</h4>
+                        </div>
+                        <div class="text-right text-muted">
+                          <small>3 hrs ago</small>
+                        </div>
+                      </div>
+                      <p class="text-sm mb-0">A new issue has been reported for Argon.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <!-- View all -->
+              <a href="#!" class="dropdown-item text-center text-primary font-weight-bold py-3">View all</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              <i class="ni ni-ungroup"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-dark bg-default  dropdown-menu-right ">
+              <div class="row shortcuts px-4">
+                <a href="#!" class="col-4 shortcut-item">
+                  <span class="shortcut-media avatar rounded-circle bg-gradient-red">
+                    <i class="ni ni-calendar-grid-58"></i>
+                  </span>
+                  <small>Calendar</small>
+                </a>
+                <a href="#!" class="col-4 shortcut-item">
+                  <span class="shortcut-media avatar rounded-circle bg-gradient-orange">
+                    <i class="ni ni-email-83"></i>
+                  </span>
+                  <small>Email</small>
+                </a>
+                <a href="#!" class="col-4 shortcut-item">
+                  <span class="shortcut-media avatar rounded-circle bg-gradient-info">
+                    <i class="ni ni-credit-card"></i>
+                  </span>
+                  <small>Payments</small>
+                </a>
+                <a href="#!" class="col-4 shortcut-item">
+                  <span class="shortcut-media avatar rounded-circle bg-gradient-green">
+                    <i class="ni ni-books"></i>
+                  </span>
+                  <small>Reports</small>
+                </a>
+                <a href="#!" class="col-4 shortcut-item">
+                  <span class="shortcut-media avatar rounded-circle bg-gradient-purple">
+                    <i class="ni ni-pin-3"></i>
+                  </span>
+                  <small>Maps</small>
+                </a>
+                <a href="#!" class="col-4 shortcut-item">
+                  <span class="shortcut-media avatar rounded-circle bg-gradient-yellow">
+                    <i class="ni ni-basket"></i>
+                  </span>
+                  <small>Shop</small>
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Header -->
+  <!-- Header -->
+  <div class="header bg-primary pb-6">
+    <div class="container-fluid">
+      <div class="header-body">
+        <div class="row align-items-center py-4">
+
+          <div class="col-lg-6 col-5 text-right">
+
+          </div>
+        </div>
+        <!-- Card stats -->
+        <div class="row">
+          <div class="col-xl-3 col-md-6">
+            <div class="card card-stats">
+              <!-- Card body -->
+              <div class="card-body">
+                
+
+                <div class="row">
+                  <div class="col">
+                    <h5 class="card-title text-uppercase text-muted mb-0">Trafico Total</h5>
+                    <% if (total_visitas) {%>
+                      <span class="h2 font-weight-bold mb-0">
+                        <%= total_visitas %>
+                      </span>
+                      <% }%>
+                  </div>
+                  <div class="col-auto">
+                    <div class="icon icon-shape bg-gradient-red text-white rounded-circle shadow">
+                      <i class="ni ni-active-40"></i>
+                    </div>
+                  </div>
+                </div>
+                <a href="" class="mt-3 mb-0 text-sm">
+                  <% if (ultimoJuego) {%>
+                    <span class="
+                    <% if(ultimoJuego.length > 0) {%>
+                      text-success mr-2
+                      <% }  else { %>  
+                        text-warning mr-2
+                        <% } %>
+                    "><i class="
+                      <% if(ultimoJuego.length > 0) {%>
+                       fa fa-arrow-up
+                       <% }  else { %>  
+                        fa fa-arrow-down 
+                         <% } %>" style="padding-right: 10px ;"></i>
+                      <%= ultimoJuego[0].ultimo %>
+                    </span>
+                    <% } %>
+                      <span class="text-nowrap">Visitas del último mes</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6">
+            <div class="card card-stats">
+              <!-- Card body -->
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <h5 class="card-title text-uppercase text-muted mb-0">Descargas</h5>
+                    <span class="h2 font-weight-bold mb-0"><%= downloads %></span>
+                  </div>
+                  <div class="col-auto">
+                    <div class="icon icon-shape bg-gradient-orange text-white rounded-circle shadow">
+                      <i class="ni ni-chart-pie-35"></i>
+                    </div>
+                  </div>
+                </div>
+                <a href="" class="mt-3 mb-0 text-sm">
+                  <% if (ultimoJuego) {%>
+                    <span class="
+                    <% if(ultimoJuego.length > 0) {%>
+                      text-success mr-2
+                      <% }  else { %>  
+                        text-warning mr-2
+                        <% } %>
+                    "><i class="
+                      <% if(ultimoJuego.length > 0) {%>
+                       fa fa-arrow-up
+                       <% }  else { %>  
+                        fa fa-arrow-down 
+                         <% } %>" style="padding-right: 10px ;"></i>
+                      <%= ultimoJuego[0].ultimo %>
+                    </span>
+                    <% } %>
+                      <span class="text-nowrap">Descargas del mes</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6">
+            <div class="card card-stats">
+              <!-- Card body -->
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <h5 class="card-title text-uppercase text-muted mb-0">Juegos</h5>
+                    <% if (juegos) {%>
+                      <span class="h2 font-weight-bold mb-0">
+                        <%= juegos[0].juegos %>
+                      </span>
+                      <% } %>
+                  </div>
+                  <div class="col-auto">
+                    <div class="icon icon-shape bg-gradient-green text-white rounded-circle shadow">
+                      <i class="ni ni-money-coins"></i>
+                    </div>
+                  </div>
+                </div>
+                <a href="" class="mt-3 mb-0 text-sm">
+                  <% if (ultimoJuego) {%>
+                    <span class="
+                    <% if(ultimoJuego.length > 0) {%>
+                      text-success mr-2
+                      <% }  else { %>  
+                        text-warning mr-2
+                        <% } %>
+                    "><i class="
+                      <% if(ultimoJuego.length > 0) {%>
+                       fa fa-arrow-up
+                       <% }  else { %>  
+                        fa fa-arrow-down 
+                         <% } %>" style="padding-right: 10px ;"></i>
+                      <%= ultimoJuego[0].ultimo %>
+                    </span>
+                    <% } %>
+                      <span class="text-nowrap">Añadidos el último mes</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6">
+            <div class="card card-stats">
+              <!-- Card body -->
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <h5 class="card-title text-uppercase text-muted mb-0">Mensajes</h5>
+                    <% if (count) { %>
+                      <span class="h2 font-weight-bold mb-0">
+                        <%= count[0].pedidosCount %>
+                      </span>
+                      <% } %>
+                  </div>
+                  <div class="col-auto">
+                    <div class="icon icon-shape bg-gradient-info text-white rounded-circle shadow">
+                      <i class="ni ni-chart-bar-32"></i>
+                    </div>
+                  </div>
+                </div>
+                <a href="/mensajes" class="mt-3 mb-0 text-sm">
+                  <span class="text-success mr-2"><i class="fa fa-arrow-up" style="padding-right: 10px;"></i>3 </span>
+                  <span class="text-nowrap">Mensajes sin leer</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Page content -->
+  <div class="container-fluid mt--6">
+    <div class="row">
+      <div class="col-xl-6">
+        <div class="card bg-default">
+          <div class="card-header bg-transparent">
+            <div class="row align-items-center">
+              <div class="col">
+                <h6 class="text-light text-uppercase ls-1 mb-1">Overview</h6>
+                <h5 class="h3 text-white mb-0">Visitas</h5>
+              </div>
+              <div class="col">
+                <ul class="nav nav-pills justify-content-end">
+
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- charts -->
+          <div>
+            <canvas id="secondChart"></canvas>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-6">
+        <div class="card bg-default">
+          <div class="card-header bg-transparent">
+            <div class="row align-items-center">
+              <div class="col">
+                <h6 class="text-light text-uppercase ls-1 mb-1">Overview</h6>
+                <h5 class="h3 text-white mb-0">Descargas</h5>
+              </div>
+              <div class="col">
+                <ul class="nav nav-pills justify-content-end">
+
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- charts -->
+          <div>
+            <canvas id="myChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script>
+let months=["January","February","March","April","June", "July", "August", "September", "October", "November", "December"];
+  let currentMonth=new Date().getMonth()+1
+  let meses = months.slice(currentMonth-4).concat(months.slice(0,currentMonth))
+  
+const data_Visits = {
+  labels: meses.slice(0,4),
+  datasets: [{
+    backgroundColor: 'rgb(0, 0, 0)',
+    borderColor: 'rgb(0,191,255)',
+    data: [
+    '<%= row4 %>',
+    '<%= row3 %>',
+    '<%= row2 %>',
+    '<%= row5 %>'
+    ],
+  }]
+};
+
+const data_Download = {
+  labels: meses.slice(0,4),
+    datasets: [{
+    backgroundColor: 'rgb(255, 0, 0)',
+    borderColor: 'rgb(255, 0, 0)',
+    data: [0, 10, 5, 2],
+    borderWidth: 1,
+    borderRadius: 10,
+  }]
+};
+
+const config = {
+  type: 'bar',
+  data: data_Download,
+  options: {
+    scales: {
+      x: {
+        grid: {
+          color: 'black'
+        },
+        ticks: {
+          color: 'gray',
+        }
+      },
+      y: {
+        grid: {
+          color: 'black'
+        },
+        ticks: {
+          color: 'gray',
+        }
+      }
+    },
+    plugins: {
+      legend: {
+        display:false
+      }
+    }
+  }
+};
+
+const Secondconfig = {
+  type: 'line',
+  data: data_Visits,
+  options: {
+    scales: {
+      x: {
+        grid: {
+          color: 'black'
+        },
+        ticks: {
+          color: 'gray',
+        }
+      },
+      y: {
+        grid: {
+          color: 'black'
+        },
+        ticks: {
+          color: 'gray',
+        }
+      },
+      
+    },
+    plugins: {
+      legend: {
+        display:false
+      }
+    }
+  }
+};
+
+const myChart = new Chart(
+  document.getElementById('myChart'),
+  config
+);
+
+const mySecondChart = new Chart(
+  document.getElementById('secondChart'),
+  Secondconfig
+);
+    </script>
+    <div class="row">
+      <div class="col-xl-8">
+        <div class="card">
+          <div class="card-header border-0">
+            <div class="row align-items-center">
+              <div class="col">
+                <h3 class="mb-0">Paginas Más Vistas</h3>
+              </div>
+              <div class="col text-right">
+                <a href="#!" class="btn btn-sm btn-primary">Ver todas</a>
+              </div>
+            </div>
+          </div>
+          <div class="table-responsive">
+            <!-- Projects table -->
+            <table class="table align-items-center table-flush">
+              <thead class="thead-light">
+                <tr>
+                  <th scope="col">Page Url</th>
+                  <th scope="col">Visitas</th>
+                  <th scope="col">Eventos por usuarios</th>
+                  <th scope="col">Engagement Rate</th>
+                </tr>
+              </thead>
+              <tbody>
+                <% for (let i = 0; i < 5; i++) { %> 
+                   <!-- primero --> 
+                   <tr>
+                    <th scope="row"> <a style="color: black; text-decoration: underline; " target="_blank" href="https://www.ajuegados.com/<%=  visits.rows[i].dimensionValues[0].value %>"><%=  visits.rows[i].dimensionValues[0].value + 'index' %></a> </th>
+                    <td class="text-center">
+                      <%= visits.rows[i].metricValues[0].value %>
+                    </td>
+                    <% var fixed = parseFloat(visits.rows[i].metricValues[1].value).toFixed(1)  %>
+                    <td class="text-center"> <%= fixed %> </td>
+                    <% var Engagementrate = (visits.rows[i].metricValues[1].value/visits.rows[i].metricValues[0].value).toFixed(1)  %>
+                    <td> <i class="fas fa-arrow-up text-success mr-3"></i> <%= Engagementrate + '%' %> </td>
+                  </tr>     
+                <% } %>             
+              </tbody>
+            </table>
+           
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4">
+        <div class="card">
+          <div class="card-header border-0">
+            <div class="row align-items-center">
+              <div class="col">
+                <h3 class="mb-0">Social traffic</h3>
+              </div>
+              <div class="col text-right">
+                <a href="#!" class="btn btn-sm btn-primary">See all</a>
+              </div>
+            </div>
+          </div>
+          <div class="table-responsive">
+            <!-- Projects table -->
+            <table class="table align-items-center table-flush">
+              <thead class="thead-light">
+                <tr>
+                  <th scope="col">Referral</th>
+                  <th scope="col">Visitors</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">
+                    Facebook
+                  </th>
+                  <td>
+                    1,480
+                  </td>
+                  <td>
+                    <div class="d-flex align-items-center">
+                      <span class="mr-2">60%</span>
+                      <div>
+                        <div class="progress">
+                          <div class="progress-bar bg-gradient-danger" role="progressbar" aria-valuenow="60"
+                            aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    Facebook
+                  </th>
+                  <td>
+                    5,480
+                  </td>
+                  <td>
+                    <div class="d-flex align-items-center">
+                      <span class="mr-2">70%</span>
+                      <div>
+                        <div class="progress">
+                          <div class="progress-bar bg-gradient-success" role="progressbar" aria-valuenow="70"
+                            aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    Google
+                  </th>
+                  <td>
+                    4,807
+                  </td>
+                  <td>
+                    <div class="d-flex align-items-center">
+                      <span class="mr-2">80%</span>
+                      <div>
+                        <div class="progress">
+                          <div class="progress-bar bg-gradient-primary" role="progressbar" aria-valuenow="80"
+                            aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    Instagram
+                  </th>
+                  <td>
+                    3,678
+                  </td>
+                  <td>
+                    <div class="d-flex align-items-center">
+                      <span class="mr-2">75%</span>
+                      <div>
+                        <div class="progress">
+                          <div class="progress-bar bg-gradient-info" role="progressbar" aria-valuenow="75"
+                            aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    twitter
+                  </th>
+                  <td>
+                    2,645
+                  </td>
+                  <td>
+                    <div class="d-flex align-items-center">
+                      <span class="mr-2">30%</span>
+                      <div>
+                        <div class="progress">
+                          <div class="progress-bar bg-gradient-warning" role="progressbar" aria-valuenow="30"
+                            aria-valuemin="0" aria-valuemax="100" style="width: 30%;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
